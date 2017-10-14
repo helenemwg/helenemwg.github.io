@@ -6,7 +6,7 @@ h1{
 
 body{
   color:#333333;
-  background-color: #121212;
+  background-color: #8b9099;
   font-family: "Courier New", Courier, monospace;
     /*Kommentar: priority list for font, not all browsers recogice
     all different fonts, goes through list until standard*/
@@ -20,7 +20,7 @@ body{
   /*Kommentar: Change style of one item with by creating ID(#name) in CSS
   implement in html by adding id=name to section description */
 #thanks {
-  font-size: 7px;
+  font-size: 10px;
   text-align: center;
   width:75%;
   font-style: italic;
@@ -28,7 +28,8 @@ body{
 
 /*Change Style of class of items*/
   .yellow_things {
-    color:#f1f442
+    color:#f1f442;
+    font-weight: bold;
   }
     /*Kommentar: Change style of class with by creating class(.name) in CSS
     implement in html by adding class=name to section description */
