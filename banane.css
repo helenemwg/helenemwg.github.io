@@ -15,7 +15,8 @@ body{
 
 /*Change Style of single item*/
 #one_green_thing {
-  color:#00ff00
+  color:#00ff00;
+  font-weight: bolder;
 }
   /*Kommentar: Change style of one item with by creating ID(#name) in CSS
   implement in html by adding id=name to section description */
