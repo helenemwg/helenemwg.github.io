@@ -1,3 +1,34 @@
+/*Change Style of sections*/
 h1{
-  color: #426493
+  color: #426493;
+   /*Change color: google colorpicker*/
 }
+
+body{
+  color:#333333;
+  background-color: #121212;
+  font-family: "Courier New", Courier, monospace;
+    /*Kommentar: priority list for font, not all browsers recogice
+    all different fonts, goes through list until standard*/
+
+}
+
+/*Change Style of single item*/
+#one_green_thing {
+  color:#00ff00
+}
+  /*Kommentar: Change style of one item with by creating ID(#name) in CSS
+  implement in html by adding id=name to section description */
+#thanks {
+  font-size: 7px;
+  text-align: center;
+  width:75%;
+  font-style: italic;
+}
+
+/*Change Style of class of items*/
+  .yellow_things {
+    color:#f1f442
+  }
+    /*Kommentar: Change style of class with by creating class(.name) in CSS
+    implement in html by adding class=name to section description */

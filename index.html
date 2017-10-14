@@ -6,16 +6,27 @@
         <!--Kommentar: Implement style from other file (href)-->
       </head>
     <body>
-      <h1> Hello Banane </h1>
+      <h1> Hello <span class=yellow_things>Banane</span>!
+        <!--Kommentar: span unterbricht den textflow for einzelne Elemente
+        class(in CSS mit ".name" erstellen) kann mehrere Elemente speziell stylen-->
+       </h1>
         <!--Kommentar: Header hat schon automatisch Abstand zum Folgenden Paragraphen-->
-      <p>Bananen machen mich glücklich!!!<br/>
+      <p><span class=yellow_things>Bananen</span> machen mich glücklich!!!<br/>
         <!--Kommentar: "<br/>" wenn man eine Zeile abbrechen will-->
         <!--mit p beginnt man einen Absatz der automatisch auf die Seiten grösse gescaled wird-->
-        Wenn die ganze Welt nur aus Bananen bestehen würde,
-        wäre das schön. Auch wenn wir dann wohl auch nur Bananen
-        essen müssen, auf Bananen schlafen müssen, auf Bananen laufen,
-        auf Bananen Gemüse anbauen. <br/>
-        Ich weiss nicht, ob <a href="https://noemic.github.io"> Noemi </a>
+        Wenn die ganze Welt nur aus
+        <span class=yellow_things>Bananen</span> bestehen würde,
+        wäre das schön. Auch wenn wir dann wohl auch nur
+        <span class=yellow_things>Bananen</span>
+        essen müssen, auf
+        <span class=yellow_things>Bananen</span>
+        schlafen müssen, auf
+        <span class=yellow_things>Bananen</span>
+        laufen, auf
+        <span class=yellow_things>Bananen</span>
+        Gemüse anbauen. <br/>
+        Ich weiss nicht, ob
+        <a href="https://noemic.github.io"> Noemi </a>
         das ähnlich sieht.
         </p>
       <img src="https://www.educol.net/image-banane-dm26030.jpg" alt="a banana" style="width:250px; height:350px">
@@ -23,7 +34,16 @@
         <!--Kommentar: Bild aus dem Internet abrufen-->
       <img src="banane.png" alt="another banana" style="width:300px; height:350px"/>
         <!--Kommentar: Bild aus dem Folder abrufen-->
-      <p>Danke an die <a href="http://djangogirls.org/">djangogirls</a></p>
-        <!--Kommentar: also was ist das alles?-->
+
+      <div id=thanks>
+        <p>
+          <span id=one_green_thing>Danke</span>
+          <!--Kommentar: Change style of one item
+          with by creating ID(#) in CSS?-->
+          an die
+          <a href="http://djangogirls.org/">djangogirls</a>
+          </p>
+        </div>
+        <!--Kommentar: div divides the text in sections-->
     </body>
 </html>
